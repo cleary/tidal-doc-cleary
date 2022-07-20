@@ -92,15 +92,14 @@ The broad scope plan for our local checkout, will be to not really use our local
 
 Let's create our first feature branch - it could be a new section dedicated to midi-3.0 (fictional, of course!)
 
-Firstly, make sure we have the latest changes from `upstream/origin`
-```
-# "fetch" the latest changes from `upstream/main` which downloads them without merging to our local files (yet)
-$ git fetch upstream main
-```
-
-Checkout/change branch to `upstream/main`
+Firstly, make sure we have the latest changes from `upstream/origin` - Checkout/change branch to `upstream/main`
 ```
 $ git checkout upstream/main
+```
+
+"pull" the latest changes from `upstream/main`
+```
+$ git pull upstream main
 ```
 
 Create our new feature/patch branch based on `upstream/main` for it's starting point
