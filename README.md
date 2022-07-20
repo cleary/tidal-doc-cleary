@@ -114,4 +114,4 @@ git push --set-upstream origin midi3-0_feature
 
 *Note, just running 'git push' will tell you the full command you need*
 
-We're done! You can begin working, and pushing commits to your github repo
+We're done! You can begin working, and pushing commits to your github repo. You can also create as many of these patch/feature branches as you need - they won't get in each other's way
