@@ -230,8 +230,8 @@ Made by [Mads Kjeldgaard](https://madskjeldgaard.dk/). SuperCollider description
 
 You can also check [this link](http://mathworld.wolfram.com/ConformalMapping.html).
 
-* `real`: ???
-* `img`: ???
+* `real`: 0.1 for minimal effect, 1.0 for very effected
+* `imag`: 0.1 for minimal effect, 1.0 for very effected
 
 #### Spectral enhance
 
