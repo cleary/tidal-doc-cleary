@@ -38,7 +38,7 @@ sudo pacman –S emacs
 ### Manual installation
 #### Edit your .emacs file
 
-To install the Emacs interface to Tidal, you’ll need to edit a configuration file in your home folder called `.emacs`. If it doesn’t exist, create it. Then, add the following, replacing `\~/projects/tidal` with the location of the `tidal.el` file:
+To install the Emacs interface to Tidal, you’ll need to edit a configuration file in your home folder called `.emacs`. If it doesn’t exist, create it. Then, add the following, replacing `\~/projects/tidal` with the directory containing the `tidal.el` file:
 
 ```elisp
 (add-to-list 'load-path "~/projects/tidal")
@@ -299,7 +299,7 @@ This extension provides a major mode for `*.tidal` files. Once the package is in
 
 ## Test Tidal with Emacs
 
-You should now have installed the Tidal Mode for **Emacs**. Open a new file, and give it a random name like `helloworld.tidal`. Once the file is opened, you still have to start **Tidal**. Enter `Ctrl-C` and then `Ctrl-S` to start. Check if **Emacs** and Tidal are working correctly by entering the following line and by pressing `Ctrl+Enter` to evaluate the single-line block:
+You should now have installed the Tidal Mode for **Emacs**. Open a new file, and give it a random name like `helloworld.tidal`. Once the file is opened, you still have to start **Tidal**. Enter `Ctrl-C` and then `Ctrl-S` to start, then `Ctrl-x o` to move back to the editor pane. Check if **Emacs** and Tidal are working correctly by entering the following line and by pressing `Ctrl+Enter` to evaluate the single-line block:
 
 ```haskell
 d1 $ brak $ sound "bd sn/2"
