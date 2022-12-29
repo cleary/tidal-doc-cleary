@@ -94,10 +94,10 @@ d1  $ s "plaits" <| note "a [~ g] [c b] [g gs]"
 
 Parameter | Range | Description
 ----------|-------|------------
-`tidesshape` | shape of the ascending and descending segments
+`tidesshape` (0.5)| shape of the ascending and descending segments
 `tidessmooth` (0.5) | 0.0-1.0 | waveshape transformation, 0.0-0.5 smooths edges, 0.5-1.0 adds kinks and bumps along the slope
-`slope` | 0.0-1.0 | ratio between the durations of the ascending and descending segments
-`shift` | 0.0-1.0 | mode specific control, adjusting amplitude and other parameters
+`slope` (0.5)| 0.0-1.0 | ratio between the durations of the ascending and descending segments
+`shift` (0.5)| 0.0-1.0 | mode specific control, adjusting amplitude and other parameters
 `mode` (2)| 0-3 | different output modes. For details see the [Manual](https://web.archive.org/web/20200918083807/https://mutable-instruments.net/modules/tides/manual/)
 
 **Example:**
@@ -173,7 +173,7 @@ Parameter | Range | Description
 `elementsstrength` | (-1.0)-1.0 | attenuates (negative) or amplifies (positive) the excitation signal
 `elementspitch` | 0.0-1.0 | fundamental frequency of the resonator
 `elementscontour` | 0.0-1.0 | envelope applied to the bow/blow exciters
-`elementsbowlevel` | 0.0-1.0 | amplitude of scratching/bowing resonator 
+`elementsbowlevel` | 0.0-1.0 | amplitude of scratching/bowing resonator
 `elementsbowtimb` | 0.0-1.0 | smoothness of the bow material
 `elementsblowlevel` | 0.0-1.0 | amount of granular blowing noise sent to the resonator
 `elementsblowtimb` | 0.0-1.0 | pitch/granulation rate of the noise generator
