@@ -84,7 +84,7 @@ After:
 9. You can choose to import the `mi-ugens-params.hs` parameter definitions manually in your tidal session, or add the following line to the `BootTidal.hs` file associated with your editor of choice (locating the correct `BootTidal.hs` is beyond the scope of this reference)
 ```
         ...
-        :script "FULL_PATH_TO_mi-ugens-params.hs"
+        :script FULL_PATH_TO_mi-ugens-params.hs
         :set prompt (.*$)
         ...
 ```
